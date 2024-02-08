@@ -1,0 +1,34 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/skills",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/hobbies",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/education",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/*",
+            "serve": "/index.html",
+            "statusCode": 404
+        }
+    ]
+}

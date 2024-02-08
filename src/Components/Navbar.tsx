@@ -37,7 +37,7 @@ function NavbaComponent() {
 
                 <NavbarContent className="hidden sm:flex gap-8" justify="center">
                     <NavbarItem isActive={location.pathname === "/education"}>
-                        <Link href="/education" color="warning">EDUCATION</Link>
+                        <Link href="/education" color="warning">QUALIFICATIONS</Link>
                     </NavbarItem>
                     <NavbarItem isActive={location.pathname === "/skills"} aria-current="page">
                         <Link href="/skills" color="warning">SKILLS</Link>
@@ -63,7 +63,7 @@ function NavbaComponent() {
 
                 <NavbarMenu>
                     <NavbarMenuItem>
-                        <Link href="/education" color="warning">EDUCATION</Link>
+                        <Link href="/education" color="warning">QUALIFICATIONS</Link>
                     </NavbarMenuItem>
                     <NavbarMenuItem>
                         <Link href="/skills" color="warning">SKILLS</Link>

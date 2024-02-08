@@ -8,7 +8,7 @@ function OpenContactModal() {
 
   return (
     <>
-          <Button onPress={onOpen} color="warning" variant="bordered">Contact</Button>
+          <Button onPress={onOpen} color="warning" variant="bordered">CONTACT</Button>
             <ContactPage isOpen={isOpen} onClose={onOpenChange} />
     </>
   )
